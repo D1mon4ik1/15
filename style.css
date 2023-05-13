@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to right bottom, blue, lime);
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: 7vh;
+    color: yellow;
+    text-shadow: 3px 1px 5px black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.left h1{
+    font-size: 3.5vh;
+    margin-left: 15vw;
+    margin-top: 7vh;
+    text-align: justify;
+}
+.right h1{
+    margin-top: 7vh;
+    font-size: 3.5vh;
+    margin-right: 20vw;
+    text-align: justify;
+}
+#output1{
+    font-size: 2.7vh;
+    margin-left: 15vw;
+}
+#output2{
+    font-size: 2.7vh;
+    line-height: 4vh;
+    margin-left: 15vw;
+    margin-bottom: 8vh;
+}
+#output3{
+    font-size: 2.7vh;
+    line-height: 3vh;
+    margin-right: 20vw;
+}
+#output4{
+    font-size: 2.7vh;
+    margin-right: 20vw;
+    background-color: black;
+    color: white;
+    padding: 0.5vh 1vw;
+    border-radius: 10px;
+}
+#output5{
+    font-size: 2.7vh;
+    margin-right: 20vw;
+    background-color: black;
+    color: white;
+    padding: 0.5vh 1vw;
+    border-radius: 10px;
+}
+#output6 {
+    font-size: 2.7vh;
+    margin-right: 20vw;
+    background-color: black;
+    color: white;
+    padding: 0.5vh 1vw;
+    border-radius: 10px;
+}
+#output4:hover, #output5:hover, #output6:hover{
+    background-color: gray;
+}
